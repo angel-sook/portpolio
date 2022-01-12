@@ -312,6 +312,6 @@ $('#btn-close').click(function(){ $('#modal').fadeOut();
 																	$('#modal .img2').attr('src',img_big);})  
 })
 
-jQuery('.posts a').click(function (event) {
+jQuery('.posts a.image').click(function (event) {
 	event.preventDefault();
 });
